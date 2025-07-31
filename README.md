@@ -5,9 +5,8 @@ Hecho en PHP con PDO y estructura tipo MVC.
 
 Proyecto de **CODIGO ABIERTO** no para uso comercial solo uso libre 
 
-## Recomendaciones 
-Si quieres agregar una seccion de lubricante para autos la tabla ya esta echa en SQL, tambien puede usar la platilla que se uso para informacion detallada en los aditivos 
-**it's fully up to you**
+## 🤡 Recomendaciones 
+Si quieres agregar una seccion de lubricantes para autos la tabla ya esta echa en **SQL ** , **just give a glance!** , tambien puedes usar la platilla que se uso para informacion detallada en los aditivos para aplicarla en los lubricante de carros tambien, **all depends about your creativity you wish to apply it's fully up to you** 
 
 ## 🧠 Proyecto Muy Inteligente
 
