@@ -229,9 +229,9 @@
                                             <div class="col-md-6 mb-3">
                                                 <label class="form-label">Disponibles:</label>
                                                 <div class="inventory-controls">
-                                                    <button type="button" class="btn btn-sm btn-outline-danger" id="decreaseStock">-</button>
+                                                    <button type="button" class="btn btn-sm btn-outline-danger" id="decreaseStockBtn">-</button>
                                                     <input type="number" name="disponibles" class="form-control text-center mx-2" id="stockCount" value="<?= isset($InfoItem['disponibles']) ? $InfoItem['disponibles'] : 0 ?>" min="0" style="width: 70px;" oninput="validarDisponibles()">
-                                                    <button type="button" class="btn btn-sm btn-outline-success" id="increaseStock">+</button>
+                                                    <button type="button" class="btn btn-sm btn-outline-success" id="increaseStockBtn">+</button>
                                                 </div>
                                             </div>
                                             <div class="col-md-6 mb-3">
@@ -406,7 +406,7 @@
             }
 
             // Eventos para los botones de control de inventario
-            $('#increaseStock').click(function() {
+            $('#increaseStockBtn').click(function() {
                 let currentStock = parseInt($('#stockCount').val());
                 if (isNaN(currentStock)) currentStock = 0;
                 $('#stockCount').val(currentStock + 1);
@@ -414,7 +414,7 @@
                 validarVendidos();
             });
 
-            $('#decreaseStock').click(function() {
+            $('#decreaseStockBtn').click(function() {
                 let currentStock = parseInt($('#stockCount').val());
                 if (isNaN(currentStock)) currentStock = 0;
                 if (currentStock > 0) {
