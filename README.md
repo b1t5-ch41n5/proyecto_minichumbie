@@ -3,6 +3,12 @@
 Este es un sistema de inventario y ventas de aditivos, lubricantes y artículos de laboratorio.  
 Hecho en PHP con PDO y estructura tipo MVC.
 
+Proyecto de **CODIGO ABIERTO** no para uso comercial solo uso libre 
+
+## Recomendaciones 
+Si quieres agregar una seccion de lubricante para autos la tabla ya esta echa en SQL, tambien puede usar la platilla que se uso para informacion detallada en los aditivos 
+**it's fully up to you**
+
 ## 🧠 Proyecto Muy Inteligente
 
 Este proyecto hace cosas muy chéveres. Lo hice solito 😎 y funciona de maravilla.
